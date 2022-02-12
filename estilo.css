@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Oswald:wght@200&family=Work+Sans:wght@100&display=swap');
+
+
+ *{
+  font-family: 'Oswald', sans-serif;
+}
+
+.head { 
+  font-size: 1.0rem;
+  background-color: peachpuff;
+  padding-top: 10px;
+  margin: -8px;
+ 
+}
+
+body {
+  background-color: rgb(255, 251, 251);
+}
+
+html{
+  font-size: 75%;
+}
+
+.navy-text {
+  color: navy;
+  font-size: 25px;
+
+}
+.botones {
+  text-align: right;
+  font-size: 1.3rem;
+  color:rgb(236, 70, 70);
+  padding:1.5rem 7%;
+  font-weight: bold;
+
+}
+.botones a{
+  text-decoration: none;
+  color:navy;
+}
+
+.botones a:hover{
+  color:var(--main-color);
+  border-bottom: .1rem solid var(--main-color);
+  padding-bottom: .5rem;
+}
+
+input[type =text] {
+
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+ 
+}
+
+input[type =submit]{
+  width: 20%;
+  background-color: rgb(158, 247, 247);
+  color: black;
+  padding: 7px 00px;
+  margin: 8px 0;
+  border-radius: 4px;
+  
+}
+
+input[type =submit]:hover {
+ background-color: aqua;
+}
+
+label{
+  font-size: 15px;
+}
