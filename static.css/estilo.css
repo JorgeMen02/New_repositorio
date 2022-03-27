@@ -101,3 +101,54 @@ border-radius: 35px 0px 35px 0px;
 border: 2px solid #5878ca;
 justify-content: center;
 }
+
+footer {
+  text-align: center;
+  margin: -10px;
+  padding: 3px;
+  background-color: rgb(129, 171, 250);
+  color: white;
+}
+
+.slider{
+  width: 95%;
+  margin:auto;
+  overflow: hidden;
+}
+
+.slider ul{
+  padding: 0;
+  display: flex;
+  width: 400%;
+
+  animation: cambio 20s infinite alternate;
+  
+}
+
+.slider li{
+  list-style: none;
+  width: 100%;
+}
+
+.slider img{
+  width: 100%;
+}
+
+@keyframes cambio{
+  0% {margin-left: 0; }
+  20% {margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+}
+
+
+
+
+
